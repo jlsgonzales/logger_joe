@@ -1,9 +1,10 @@
 import * as vscode from 'vscode';
-import { ExtensionManager } from "../ExtensionManager";
+import { ExtensionManager } from "../managers/ExtensionManager";
 import { RememberLineDecorator } from '../decorators/RememberLineDecorator';
+import { ICommand } from './ICommand';
 
 
-export class RememberLineCommand
+export class RememberLineCommand implements ICommand
 {
     private extensionManager: ExtensionManager;
     private decorator: RememberLineDecorator;
@@ -14,19 +15,14 @@ export class RememberLineCommand
         this.decorator = decorator;
     }
 
-    public get disposableRemember()
+    public disposables()
     {
-        return vscode.commands.registerCommand('logger-joe.rememberLine', () => this.remember());
-    }
-
-    public get disposableNext()
-    {
-        return vscode.commands.registerCommand('logger-joe.nextRememberLine', () => this.next());
-    }
-
-    public get disposablePrevious()
-    {
-        return vscode.commands.registerCommand('logger-joe.previousRememberLine', () => this.previous());
+        return [
+            vscode.commands.registerCommand('logger-joe.rememberLine', () => this.remember()),
+            vscode.commands.registerCommand('logger-joe.forgetLine', () => this.forget()),
+            vscode.commands.registerCommand('logger-joe.nextRememberLine', () => this.next()),
+            vscode.commands.registerCommand('logger-joe.previousRememberLine', () => this.previous()),
+        ];
     }
 
     public remember()
@@ -36,7 +32,27 @@ export class RememberLineCommand
         {
             return;
         }
-        this.decorator.addLine(editor.selection.active.line);
+        this.decorator.addLine(editor.document.fileName, editor.selection.active.line);
+
+        if (this.extensionManager.includes(editor.document.fileName))
+        {
+            this.decorator.updateDecoration(editor);
+        }
+        else
+        {
+            this.extensionManager.addFile(editor.document.fileName);
+            this.extensionManager.update(editor);
+        }
+    }
+
+    public forget()
+    {
+        const editor = vscode.window.activeTextEditor!;
+        if (!editor)
+        {
+            return;
+        }
+        this.decorator.removeLine(editor.document.fileName, editor.selection.active.line);
 
         if (this.extensionManager.includes(editor.document.fileName))
         {
@@ -56,7 +72,7 @@ export class RememberLineCommand
         {
             return;
         }
-        if (this.decorator.isRememberedEmpty())
+        if (this.decorator.isRememberedEmpty(editor.document.fileName))
         {
             return;
         }
@@ -71,7 +87,7 @@ export class RememberLineCommand
             return;
         }
 
-        if (this.decorator.isRememberedEmpty())
+        if (this.decorator.isRememberedEmpty(editor.document.fileName))
         {
             return;
         }

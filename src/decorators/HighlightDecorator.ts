@@ -1,4 +1,4 @@
-import { ExtensionManager } from "../ExtensionManager";
+import { ExtensionManager } from "../managers/ExtensionManager";
 import * as vscode from 'vscode';
 
 const colors: string[] =
@@ -61,30 +61,43 @@ const colors: string[] =
 export class HighlightDecorator
 {
     private extensionManager: ExtensionManager;
-    private words: string[];
+    private words: Map<string, string[]>; // filename, highlightedWord
+    private disposables: vscode.Disposable[];
 
     constructor(extensionManager: ExtensionManager)
     {
         this.extensionManager = extensionManager;
-        this.extensionManager.addHook((activeEditor: vscode.TextEditor) => this.updateDecoration(activeEditor));
-        this.words = [];
+        this.extensionManager.addUpdateHook((activeEditor: vscode.TextEditor) => this.updateDecoration(activeEditor));
+        this.words = new Map([]);
+        this.disposables = [];
     }
 
     public updateDecoration(active: vscode.TextEditor)
     {
+        this.disposables.forEach((disposable) => disposable.dispose());
+        this.disposables = [];
         this.decorate(active.document.getText(), active);
     }
 
     private decorate(text: string, active: vscode.TextEditor): void
     {
-        this.words.forEach( (word: string, index: number) =>
+        const {fileName} = active!.document;
+        if (!this.words.has(fileName))
+        {
+            return;
+        }
+
+        this.words.get(fileName)!.forEach( (word: string, index: number) =>
         {
             const decor = vscode.window.createTextEditorDecorationType(
             {
                 backgroundColor: colors[index],
                 color: "black",
             });
-            active.setDecorations(decor, this.searchForRanges(text, new RegExp(word, "g"), active));
+            this.disposables.push(decor);
+            const regexPattern = new RegExp(word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), "g");
+            active.setDecorations(decor, this.searchForRanges(text, regexPattern,active));
+            console.log(`highlighting fn:${fileName}, word: ${word}`);
         });
     }
 
@@ -103,17 +116,39 @@ export class HighlightDecorator
         return ranges;
     }
 
-    public addWord(word: string)
+    public addWord(fn: string, word: string)
     {
-        if (this.words.includes(word))
+        let words = this.words.get(fn);
+        if (words === undefined)
         {
+            this.words.set(fn, []);
+            words = this.words.get(fn)!;
+        }
+
+        if (words!.includes(word))
+        {
+            console.log(word, " not added");
             return;
         }
-        this.words.push(word);
+        words!.push(word);
     }
 
-    public get length()
+    public removeWord(fn: string, word: string)
     {
-        return this.words.length;
+        let rememberedLines = this.words.get(fn);
+        if (rememberedLines === undefined)
+        {
+            // no remembered
+            return;
+        }
+        if (rememberedLines!.includes(word))
+        {
+            rememberedLines.splice(rememberedLines.indexOf(word), 1);
+        }
+    }
+
+    public length(fn: string)
+    {
+        return (this.words.has(fn)) ? this.words.get(fn)!.length : 0;
     }
 }

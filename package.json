@@ -12,7 +12,8 @@
     "activationEvents": [
         "onCommand:logger-joe.helloWorld",
         "onCommand:logger-joe.highlightWord",
-        "onCommand:logger-joe.rememberLine"
+        "onCommand:logger-joe.rememberLine",
+        "onCommand:logger-joe.grep"
     ],
     "main": "./out/extension.js",
     "contributes": {
@@ -37,6 +38,14 @@
                 "title": "Logger Joe: Remember This Line"
             },
             {
+                "command": "logger-joe.forgetLine",
+                "title": "Logger Joe: Forget This Line"
+            },
+            {
+                "command": "logger-joe.grep",
+                "title": "Logger Joe: Grep"
+            },
+            {
                 "command": "logger-joe.nextRememberLine",
                 "title": "Logger Joe: Go to Next Remembered Line"
             },
@@ -47,6 +56,10 @@
             {
                 "command": "logger-joe.highlightWord",
                 "title": "Logger Joe: Highlight Selected"
+            },
+            {
+                "command": "logger-joe.unhighlightWord",
+                "title": "Logger Joe: Unhighlight Selected"
             }
         ]
     },

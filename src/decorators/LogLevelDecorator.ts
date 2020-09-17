@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { ExtensionManager } from '../ExtensionManager';
+import { ExtensionManager } from '../managers/ExtensionManager';
 
 type TProgress =
 {
@@ -13,15 +13,50 @@ export class LogLevelDecorator
     private timeout: NodeJS.Timeout | undefined;
     private extensionManager: ExtensionManager;
     private progressBar?: TProgress;
+    private disposables: vscode.TextEditorDecorationType[];
 
     constructor(extensionManager: ExtensionManager)
     {
         this.extensionManager = extensionManager;
-        this.extensionManager.addHook((activeEditor: vscode.TextEditor) => this.updateDecoration(activeEditor));
+        this.extensionManager.addUpdateHook((activeEditor: vscode.TextEditor) => this.updateDecoration(activeEditor));
+        this.disposables=
+        [
+            // INFO
+            vscode.window.createTextEditorDecorationType(
+            {
+                light: { color: 'green'},
+                dark: { color: 'lightgreen'}
+            }),
+            // WARN
+            vscode.window.createTextEditorDecorationType(
+            {
+                light: { color: 'yellow'},
+                dark: { color: 'yellow'}
+            }),
+            // ERROR
+            vscode.window.createTextEditorDecorationType(
+            {
+                light: { color: 'red'},
+                dark: { color: 'red'}
+            }),
+            // FATAL
+            vscode.window.createTextEditorDecorationType(
+            {
+                light: { color: 'darkviolet'},
+                dark: { color: 'violet'}
+            }),
+            // DEBUG
+            vscode.window.createTextEditorDecorationType(
+            {
+                light: { color: 'deepskyblue'},
+                dark: { color: 'lightskyblue'}
+            }),
+        ];
     }
 
     public updateDecoration(active: vscode.TextEditor)
     {
+        this.disposables.forEach((disposable) => disposable.dispose);
         if (this.timeout)
         {
             clearTimeout(this.timeout);
@@ -51,31 +86,12 @@ export class LogLevelDecorator
 
     private decorateLogLevels(text: string, active: vscode.TextEditor): void
     {
-        const infoDecorator = vscode.window.createTextEditorDecorationType(
-        {
-            light: { color: 'green'},
-            dark: { color: 'lightgreen'}
-        });
-        const warnDecorator = vscode.window.createTextEditorDecorationType(
-        {
-            light: { color: 'yellow'},
-            dark: { color: 'yellow'}
-        });
-        const errorDecorator = vscode.window.createTextEditorDecorationType(
-        {
-            light: { color: 'red'},
-            dark: { color: 'red'}
-        });
-        const fatalDecorator = vscode.window.createTextEditorDecorationType(
-        {
-            light: { color: 'darkviolet'},
-            dark: { color: 'violet'}
-        });
-
-        active.setDecorations(infoDecorator, this.searchForRanges(text, /INFO/g, active));
-        active.setDecorations(warnDecorator, this.searchForRanges(text, /WARN/g, active));
-        active.setDecorations(errorDecorator, this.searchForRanges(text, /ERROR/g, active));
-        active.setDecorations(fatalDecorator, this.searchForRanges(text, /FATAL/g, active));
+        const range = new vscode.Range(new vscode.Position(0, 0), active.document.lineAt(active.document.lineCount - 1).range.end);
+        active.setDecorations(this.disposables[0], this.searchForRanges(text, /INFO/g, active));
+        active.setDecorations(this.disposables[1], this.searchForRanges(text, /WARN/g, active));
+        active.setDecorations(this.disposables[2], this.searchForRanges(text, /ERROR/g, active));
+        active.setDecorations(this.disposables[3], this.searchForRanges(text, /FATAL/g, active));
+        active.setDecorations(this.disposables[4], this.searchForRanges(text, /DEBUG/g, active));
     }
 
     private searchForRanges(text: string,  regex: RegExp, active: vscode.TextEditor): { range: vscode.Range }[]
