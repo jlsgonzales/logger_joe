@@ -1,4 +1,4 @@
-import { ExtensionManager } from "../managers/ExtensionManager";
+import { ExtensionManager } from "../managers";
 import * as vscode from 'vscode';
 
 const colors: string[] =
@@ -68,15 +68,29 @@ export class HighlightDecorator
     {
         this.extensionManager = extensionManager;
         this.extensionManager.addUpdateHook((activeEditor: vscode.TextEditor) => this.updateDecoration(activeEditor));
+        this.extensionManager.addDisposeHook((fn: string) => this.disposeFile(fn));
         this.words = new Map([]);
         this.disposables = [];
     }
 
     public updateDecoration(active: vscode.TextEditor)
     {
+        this.disposeDecoration();
+        this.decorate(active.document.getText(), active);
+    }
+
+    public disposeDecoration()
+    {
+        console.log('disposing', this.constructor.name);
         this.disposables.forEach((disposable) => disposable.dispose());
         this.disposables = [];
-        this.decorate(active.document.getText(), active);
+    }
+
+    public disposeFile(fn: string)
+    {
+        console.log('disposing', this.constructor.name);
+        this.words.delete(fn);
+        this.disposeDecoration();
     }
 
     private decorate(text: string, active: vscode.TextEditor): void
@@ -96,7 +110,7 @@ export class HighlightDecorator
             });
             this.disposables.push(decor);
             const regexPattern = new RegExp(word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), "g");
-            active.setDecorations(decor, this.searchForRanges(text, regexPattern,active));
+            active.setDecorations(decor, this.searchForRanges(text, regexPattern, active));
             console.log(`highlighting fn:${fileName}, word: ${word}`);
         });
     }

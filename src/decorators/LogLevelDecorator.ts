@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { ExtensionManager } from '../managers/ExtensionManager';
+import { ExtensionManager } from '../managers';
 
 type TProgress =
 {
@@ -19,6 +19,30 @@ export class LogLevelDecorator
     {
         this.extensionManager = extensionManager;
         this.extensionManager.addUpdateHook((activeEditor: vscode.TextEditor) => this.updateDecoration(activeEditor));
+        this.extensionManager.addDisposeHook(() => this.disposeDecoration());
+        this.disposables = [];
+    }
+
+    public disposeDecoration()
+    {
+        console.log('disposing', this.constructor.name);
+        this.disposables.forEach((disposable) => disposable.dispose());
+        this.disposables = [];
+    }
+
+    public updateDecoration(active: vscode.TextEditor)
+    {
+        this.disposeDecoration();
+        if (this.timeout)
+        {
+            clearTimeout(this.timeout);
+            this.timeout = undefined;
+        }
+        this.timeout = setTimeout( () => this.decorate(active), 500);
+    }
+
+    private decorate(active: vscode.TextEditor): void
+    {
         this.disposables=
         [
             // INFO
@@ -52,24 +76,10 @@ export class LogLevelDecorator
                 dark: { color: 'lightskyblue'}
             }),
         ];
-    }
-
-    public updateDecoration(active: vscode.TextEditor)
-    {
-        this.disposables.forEach((disposable) => disposable.dispose);
-        if (this.timeout)
-        {
-            clearTimeout(this.timeout);
-            this.timeout = undefined;
-        }
-        this.timeout = setTimeout( () => this.decorate(active), 500);
-    }
-
-    private decorate(active: vscode.TextEditor): void
-    {
         const text = active.document.getText();
         this.displayProgress();
         this.decorateLogLevels(text, active);
+        console.log('decorated', this.constructor.name, this.disposables);
     }
 
     private displayProgress()
@@ -77,7 +87,7 @@ export class LogLevelDecorator
         vscode.window.withProgress({ location: vscode.ProgressLocation.Notification, title: "Decorating Log Levels", },
         (progress) =>
         {
-            return new Promise((resolver: () => void) =>
+            return new Promise((resolver: (_?: any) => void): void =>
             {
                 this.progressBar =  { bar: progress, resolver: resolver, progress: 0 };
             });
@@ -86,7 +96,6 @@ export class LogLevelDecorator
 
     private decorateLogLevels(text: string, active: vscode.TextEditor): void
     {
-        const range = new vscode.Range(new vscode.Position(0, 0), active.document.lineAt(active.document.lineCount - 1).range.end);
         active.setDecorations(this.disposables[0], this.searchForRanges(text, /INFO/g, active));
         active.setDecorations(this.disposables[1], this.searchForRanges(text, /WARN/g, active));
         active.setDecorations(this.disposables[2], this.searchForRanges(text, /ERROR/g, active));

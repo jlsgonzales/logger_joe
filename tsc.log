@@ -1,0 +1,1615 @@
+======== Resolving module '@app' from '/home/jlsgonzales/git/logger-joe/src/extension.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@app'.
+'paths' option is specified, looking for a pattern to match module name '@app'.
+Module name '@app', matched pattern '@app*'.
+Trying substitution './src/app', candidate module location: './src/app'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/app', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/app.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/app.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/app.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/app/package.json' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/app/index.ts' exist - use it as a name resolution result.
+======== Module name '@app' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/app/index.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/extension.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+'paths' option is specified, looking for a pattern to match module name 'vscode'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+Resolving module name 'vscode' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vscode'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vscode', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/vscode.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vscode' does not exist, skipping all lookups in it.
+Loading module 'vscode' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode.d.ts' does not exist.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module './app' from '/home/jlsgonzales/git/logger-joe/src/app/index.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/app/app', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/app/app.ts' exist - use it as a name resolution result.
+======== Module name './app' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+'paths' option is specified, looking for a pattern to match module name 'vscode'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+Resolving module name 'vscode' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vscode'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vscode', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/vscode.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vscode' does not exist, skipping all lookups in it.
+Loading module 'vscode' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/app/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module '@commands/FileParserCommand' from '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@commands/FileParserCommand'.
+'paths' option is specified, looking for a pattern to match module name '@commands/FileParserCommand'.
+Module name '@commands/FileParserCommand', matched pattern '@commands/*'.
+Trying substitution './src/commands/*', candidate module location: './src/commands/FileParserCommand'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/commands/FileParserCommand', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/commands/FileParserCommand.ts' exist - use it as a name resolution result.
+======== Module name '@commands/FileParserCommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/FileParserCommand.ts'. ========
+======== Resolving module '@commands/GrepCommand' from '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@commands/GrepCommand'.
+'paths' option is specified, looking for a pattern to match module name '@commands/GrepCommand'.
+Module name '@commands/GrepCommand', matched pattern '@commands/*'.
+Trying substitution './src/commands/*', candidate module location: './src/commands/GrepCommand'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/commands/GrepCommand', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/commands/GrepCommand.ts' exist - use it as a name resolution result.
+======== Module name '@commands/GrepCommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/GrepCommand.ts'. ========
+======== Resolving module '@commands/HighlightCommand' from '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@commands/HighlightCommand'.
+'paths' option is specified, looking for a pattern to match module name '@commands/HighlightCommand'.
+Module name '@commands/HighlightCommand', matched pattern '@commands/*'.
+Trying substitution './src/commands/*', candidate module location: './src/commands/HighlightCommand'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/commands/HighlightCommand', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/commands/HighlightCommand.ts' exist - use it as a name resolution result.
+======== Module name '@commands/HighlightCommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/HighlightCommand.ts'. ========
+======== Resolving module '@commands/RememberLineCommand' from '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@commands/RememberLineCommand'.
+'paths' option is specified, looking for a pattern to match module name '@commands/RememberLineCommand'.
+Module name '@commands/RememberLineCommand', matched pattern '@commands/*'.
+Trying substitution './src/commands/*', candidate module location: './src/commands/RememberLineCommand'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/commands/RememberLineCommand', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/commands/RememberLineCommand.ts' exist - use it as a name resolution result.
+======== Module name '@commands/RememberLineCommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/RememberLineCommand.ts'. ========
+======== Resolving module '@managers/CommandManager' from '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@managers/CommandManager'.
+'paths' option is specified, looking for a pattern to match module name '@managers/CommandManager'.
+Module name '@managers/CommandManager', matched pattern '@managers/*'.
+Trying substitution './src/managers/*', candidate module location: './src/managers/CommandManager'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/managers/CommandManager', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/managers/CommandManager.ts' exist - use it as a name resolution result.
+======== Module name '@managers/CommandManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/CommandManager.ts'. ========
+======== Resolving module '@managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@managers/ExtensionManager'.
+'paths' option is specified, looking for a pattern to match module name '@managers/ExtensionManager'.
+Module name '@managers/ExtensionManager', matched pattern '@managers/*'.
+Trying substitution './src/managers/*', candidate module location: './src/managers/ExtensionManager'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts' exist - use it as a name resolution result.
+======== Module name '@managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module '@managers/DecoratorManager' from '/home/jlsgonzales/git/logger-joe/src/app/app.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@managers/DecoratorManager'.
+'paths' option is specified, looking for a pattern to match module name '@managers/DecoratorManager'.
+Module name '@managers/DecoratorManager', matched pattern '@managers/*'.
+Trying substitution './src/managers/*', candidate module location: './src/managers/DecoratorManager'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts' exist - use it as a name resolution result.
+======== Module name '@managers/DecoratorManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/commands/FileParserCommand.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+'paths' option is specified, looking for a pattern to match module name 'vscode'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+Resolving module name 'vscode' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vscode'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vscode', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/vscode.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vscode' does not exist, skipping all lookups in it.
+Loading module 'vscode' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/commands/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module '../managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/commands/FileParserCommand.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts' exist - use it as a name resolution result.
+======== Module name '../managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module './ICommand' from '/home/jlsgonzales/git/logger-joe/src/commands/FileParserCommand.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/commands/ICommand', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/commands/ICommand.ts' exist - use it as a name resolution result.
+======== Module name './ICommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/ICommand.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+'paths' option is specified, looking for a pattern to match module name 'vscode'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+Resolving module name 'vscode' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vscode'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vscode', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/vscode.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vscode' does not exist, skipping all lookups in it.
+Loading module 'vscode' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/managers/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/commands/ICommand.ts'. ========
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/commands/GrepCommand.ts'. ========
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module '../managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/commands/GrepCommand.ts'. ========
+Resolution for module '../managers/ExtensionManager' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name '../managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module '../decorators/RememberLineDecorator' from '/home/jlsgonzales/git/logger-joe/src/commands/GrepCommand.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/decorators/RememberLineDecorator', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/decorators/RememberLineDecorator.ts' exist - use it as a name resolution result.
+======== Module name '../decorators/RememberLineDecorator' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/decorators/RememberLineDecorator.ts'. ========
+======== Resolving module './ICommand' from '/home/jlsgonzales/git/logger-joe/src/commands/GrepCommand.ts'. ========
+Resolution for module './ICommand' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name './ICommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/ICommand.ts'. ========
+======== Resolving module '@managers/DecoratorManager' from '/home/jlsgonzales/git/logger-joe/src/commands/GrepCommand.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@managers/DecoratorManager'.
+'paths' option is specified, looking for a pattern to match module name '@managers/DecoratorManager'.
+Module name '@managers/DecoratorManager', matched pattern '@managers/*'.
+Trying substitution './src/managers/*', candidate module location: './src/managers/DecoratorManager'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts' exist - use it as a name resolution result.
+======== Module name '@managers/DecoratorManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts'. ========
+======== Resolving module '../managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/decorators/RememberLineDecorator.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts' exist - use it as a name resolution result.
+======== Module name '../managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/decorators/RememberLineDecorator.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+'paths' option is specified, looking for a pattern to match module name 'vscode'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+Resolving module name 'vscode' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vscode'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vscode', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/vscode.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vscode' does not exist, skipping all lookups in it.
+Loading module 'vscode' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/decorators/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module '@managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@managers/ExtensionManager'.
+'paths' option is specified, looking for a pattern to match module name '@managers/ExtensionManager'.
+Module name '@managers/ExtensionManager', matched pattern '@managers/*'.
+Trying substitution './src/managers/*', candidate module location: './src/managers/ExtensionManager'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts' exist - use it as a name resolution result.
+======== Module name '@managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module '@decorators/HighlightDecorator' from '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@decorators/HighlightDecorator'.
+'paths' option is specified, looking for a pattern to match module name '@decorators/HighlightDecorator'.
+Module name '@decorators/HighlightDecorator', matched pattern '@decorators*'.
+Trying substitution './src/decorators', candidate module location: './src/decorators'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/decorators', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators/package.json' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts' exist - use it as a name resolution result.
+======== Module name '@decorators/HighlightDecorator' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts'. ========
+======== Resolving module '@decorators/LogLevelDecorator' from '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@decorators/LogLevelDecorator'.
+'paths' option is specified, looking for a pattern to match module name '@decorators/LogLevelDecorator'.
+Module name '@decorators/LogLevelDecorator', matched pattern '@decorators*'.
+Trying substitution './src/decorators', candidate module location: './src/decorators'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/decorators', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators/package.json' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts' exist - use it as a name resolution result.
+======== Module name '@decorators/LogLevelDecorator' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts'. ========
+======== Resolving module '@decorators/RememberLineDecorator' from '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name '@decorators/RememberLineDecorator'.
+'paths' option is specified, looking for a pattern to match module name '@decorators/RememberLineDecorator'.
+Module name '@decorators/RememberLineDecorator', matched pattern '@decorators*'.
+Trying substitution './src/decorators', candidate module location: './src/decorators'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/decorators', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators/package.json' does not exist.
+File '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts' exist - use it as a name resolution result.
+======== Module name '@decorators/RememberLineDecorator' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/commands/HighlightCommand.ts'. ========
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module '../managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/commands/HighlightCommand.ts'. ========
+Resolution for module '../managers/ExtensionManager' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name '../managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module '../decorators/HighlightDecorator' from '/home/jlsgonzales/git/logger-joe/src/commands/HighlightCommand.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/decorators/HighlightDecorator', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/decorators/HighlightDecorator.ts' exist - use it as a name resolution result.
+======== Module name '../decorators/HighlightDecorator' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/decorators/HighlightDecorator.ts'. ========
+======== Resolving module './ICommand' from '/home/jlsgonzales/git/logger-joe/src/commands/HighlightCommand.ts'. ========
+Resolution for module './ICommand' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name './ICommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/ICommand.ts'. ========
+======== Resolving module '@managers/DecoratorManager' from '/home/jlsgonzales/git/logger-joe/src/commands/HighlightCommand.ts'. ========
+Resolution for module '@managers/DecoratorManager' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name '@managers/DecoratorManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts'. ========
+======== Resolving module '../managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/decorators/HighlightDecorator.ts'. ========
+Resolution for module '../managers/ExtensionManager' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/decorators'.
+======== Module name '../managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/decorators/HighlightDecorator.ts'. ========
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/decorators'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/commands/RememberLineCommand.ts'. ========
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module '../managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/commands/RememberLineCommand.ts'. ========
+Resolution for module '../managers/ExtensionManager' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name '../managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module '../decorators/RememberLineDecorator' from '/home/jlsgonzales/git/logger-joe/src/commands/RememberLineCommand.ts'. ========
+Resolution for module '../decorators/RememberLineDecorator' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name '../decorators/RememberLineDecorator' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/decorators/RememberLineDecorator.ts'. ========
+======== Resolving module './ICommand' from '/home/jlsgonzales/git/logger-joe/src/commands/RememberLineCommand.ts'. ========
+Resolution for module './ICommand' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name './ICommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/ICommand.ts'. ========
+======== Resolving module '@managers/DecoratorManager' from '/home/jlsgonzales/git/logger-joe/src/commands/RememberLineCommand.ts'. ========
+Resolution for module '@managers/DecoratorManager' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/commands'.
+======== Module name '@managers/DecoratorManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/DecoratorManager.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/managers/CommandManager.ts'. ========
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/managers'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module '../commands/ICommand' from '/home/jlsgonzales/git/logger-joe/src/managers/CommandManager.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/src/commands/ICommand', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/src/commands/ICommand.ts' exist - use it as a name resolution result.
+======== Module name '../commands/ICommand' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/commands/ICommand.ts'. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/decorators/LogLevelDecorator.ts'. ========
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/decorators'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module '../managers/ExtensionManager' from '/home/jlsgonzales/git/logger-joe/src/decorators/LogLevelDecorator.ts'. ========
+Resolution for module '../managers/ExtensionManager' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/decorators'.
+======== Module name '../managers/ExtensionManager' was successfully resolved to '/home/jlsgonzales/git/logger-joe/src/managers/ExtensionManager.ts'. ========
+======== Resolving module 'path' from '/home/jlsgonzales/git/logger-joe/src/test/runTest.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'path'.
+'paths' option is specified, looking for a pattern to match module name 'path'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'path'.
+Resolving module name 'path' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/path'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/path', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/path.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/path.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/path.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/path' does not exist, skipping all lookups in it.
+Loading module 'path' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/path.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/path.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/path.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/path.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'path'.
+'paths' option is specified, looking for a pattern to match module name 'path'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'path'.
+Resolving module name 'path' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/path'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/path', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/path.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/path.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/path' does not exist, skipping all lookups in it.
+Loading module 'path' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/path.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/path.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'path' was not resolved. ========
+======== Resolving module 'vscode-test' from '/home/jlsgonzales/git/logger-joe/src/test/runTest.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode-test'.
+'paths' option is specified, looking for a pattern to match module name 'vscode-test'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode-test'.
+Resolving module name 'vscode-test' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vscode-test'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vscode-test', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/vscode-test.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode-test.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode-test.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vscode-test' does not exist, skipping all lookups in it.
+Loading module 'vscode-test' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field './out/index.js' that references '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.js'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.js' exist - use it as a name resolution result.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.js', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.js.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.js.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.js.d.ts' does not exist.
+File name '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.js' has a '.js' extension - stripping it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.d.ts'.
+======== Module name 'vscode-test' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.d.ts' with Package ID 'vscode-test/out/index.d.ts@1.4.0'. ========
+======== Resolving module './download' from '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/download', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/download.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/download.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/download.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/package.json'.
+'package.json' does not have a 'typesVersions' field.
+======== Module name './download' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/download.d.ts' with Package ID 'vscode-test/out/download.d.ts@1.4.0'. ========
+======== Resolving module './runTest' from '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/runTest', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/runTest.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/runTest.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/runTest.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/package.json'.
+'package.json' does not have a 'typesVersions' field.
+======== Module name './runTest' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/runTest.d.ts' with Package ID 'vscode-test/out/runTest.d.ts@1.4.0'. ========
+======== Resolving module './util' from '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/util', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/util.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/util.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/util.d.ts' exist - use it as a name resolution result.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/package.json'.
+'package.json' does not have a 'typesVersions' field.
+======== Module name './util' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/util.d.ts' with Package ID 'vscode-test/out/util.d.ts@1.4.0'. ========
+======== Resolving module './download' from '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/runTest.d.ts'. ========
+Resolution for module './download' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out'.
+======== Module name './download' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/download.d.ts' with Package ID 'vscode-test/out/download.d.ts@1.4.0'. ========
+======== Resolving type reference directive 'node', containing file '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/util.d.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/package.json'.
+'package.json' has a 'typesVersions' field with version-specific path mappings.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/index.d.ts'.
+'package.json' has a 'typesVersions' entry '>=3.7.0-0' that matches compiler version '4.0.2', looking for a pattern to match module name 'index.d.ts'.
+Module name 'index.d.ts', matched pattern '*'.
+Trying substitution 'ts3.7/*', candidate module location: 'ts3.7/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts' with Package ID '@types/node/ts3.7/index.d.ts@14.6.0', primary: true. ========
+======== Resolving module 'fs' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/child_process.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs'.
+'paths' option is specified, looking for a pattern to match module name 'fs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs'.
+Resolving module name 'fs' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/fs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/fs', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/fs.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/fs.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/fs.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/fs' does not exist, skipping all lookups in it.
+Loading module 'fs' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/fs.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/fs.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/fs.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/fs.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs'.
+'paths' option is specified, looking for a pattern to match module name 'fs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs'.
+Resolving module name 'fs' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/fs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/fs', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/fs.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/fs.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/fs' does not exist, skipping all lookups in it.
+Loading module 'fs' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/fs.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/fs.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'fs' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/child_process.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'events'.
+'paths' option is specified, looking for a pattern to match module name 'events'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'events'.
+Resolving module name 'events' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/events'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/events', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/events.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/events.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/events.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/events' does not exist, skipping all lookups in it.
+Loading module 'events' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/events.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/events.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/events.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/events.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'events'.
+'paths' option is specified, looking for a pattern to match module name 'events'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'events'.
+Resolving module name 'events' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/events'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/events', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/events.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/events.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/events' does not exist, skipping all lookups in it.
+Loading module 'events' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/events.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/events.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'net' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/child_process.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'net'.
+'paths' option is specified, looking for a pattern to match module name 'net'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'net'.
+Resolving module name 'net' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/net'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/net', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/net.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/net.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/net.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/net' does not exist, skipping all lookups in it.
+Loading module 'net' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/net.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/net.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/net.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/net.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'net'.
+'paths' option is specified, looking for a pattern to match module name 'net'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'net'.
+Resolving module name 'net' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/net'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/net', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/net.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/net.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/net' does not exist, skipping all lookups in it.
+Loading module 'net' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/net.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/net.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'net' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/child_process.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'stream'.
+'paths' option is specified, looking for a pattern to match module name 'stream'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'stream'.
+Resolving module name 'stream' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/stream'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/stream', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/stream.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/stream.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/stream.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/stream' does not exist, skipping all lookups in it.
+Loading module 'stream' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/stream.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/stream.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/stream.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/stream.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'stream'.
+'paths' option is specified, looking for a pattern to match module name 'stream'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'stream'.
+Resolving module name 'stream' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/stream'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/stream', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/stream.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/stream.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/stream' does not exist, skipping all lookups in it.
+Loading module 'stream' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/stream.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/stream.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'child_process' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/cluster.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'child_process'.
+'paths' option is specified, looking for a pattern to match module name 'child_process'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'child_process'.
+Resolving module name 'child_process' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/child_process'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/child_process', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/child_process.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/child_process.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/child_process.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/child_process' does not exist, skipping all lookups in it.
+Loading module 'child_process' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/child_process.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/child_process.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/child_process.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/child_process.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'child_process'.
+'paths' option is specified, looking for a pattern to match module name 'child_process'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'child_process'.
+Resolving module name 'child_process' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/child_process'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/child_process', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/child_process.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/child_process.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/child_process' does not exist, skipping all lookups in it.
+Loading module 'child_process' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/child_process.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/child_process.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'child_process' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/cluster.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'net' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/cluster.d.ts'. ========
+Resolution for module 'net' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'net' was not resolved. ========
+======== Resolving module 'util' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/console.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'util'.
+'paths' option is specified, looking for a pattern to match module name 'util'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'util'.
+Resolving module name 'util' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/util'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/util', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/util.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/util.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/util.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/util' does not exist, skipping all lookups in it.
+Loading module 'util' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/util.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/util.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/util.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/util.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'util'.
+'paths' option is specified, looking for a pattern to match module name 'util'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'util'.
+Resolving module name 'util' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/util'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/util', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/util.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/util.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/util' does not exist, skipping all lookups in it.
+Loading module 'util' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/util.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/util.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'util' was not resolved. ========
+======== Resolving module 'os' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/constants.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'os'.
+'paths' option is specified, looking for a pattern to match module name 'os'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'os'.
+Resolving module name 'os' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/os'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/os', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/os.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/os.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/os.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/os' does not exist, skipping all lookups in it.
+Loading module 'os' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/os.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/os.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/os.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/os.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'os'.
+'paths' option is specified, looking for a pattern to match module name 'os'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'os'.
+Resolving module name 'os' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/os'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/os', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/os.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/os.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/os' does not exist, skipping all lookups in it.
+Loading module 'os' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/os.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/os.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'os' was not resolved. ========
+======== Resolving module 'crypto' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/constants.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'crypto'.
+'paths' option is specified, looking for a pattern to match module name 'crypto'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'crypto'.
+Resolving module name 'crypto' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/crypto'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/crypto', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/crypto.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/crypto.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/crypto.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/crypto' does not exist, skipping all lookups in it.
+Loading module 'crypto' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/crypto.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/crypto.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/crypto.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/crypto.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'crypto'.
+'paths' option is specified, looking for a pattern to match module name 'crypto'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'crypto'.
+Resolving module name 'crypto' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/crypto'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/crypto', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/crypto.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/crypto.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/crypto' does not exist, skipping all lookups in it.
+Loading module 'crypto' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/crypto.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/crypto.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'crypto' was not resolved. ========
+======== Resolving module 'fs' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/constants.d.ts'. ========
+Resolution for module 'fs' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'fs' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/crypto.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'net' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/dgram.d.ts'. ========
+Resolution for module 'net' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'net' was not resolved. ========
+======== Resolving module 'dns' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/dgram.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'dns'.
+'paths' option is specified, looking for a pattern to match module name 'dns'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'dns'.
+Resolving module name 'dns' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/dns'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/dns', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/dns.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/dns.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/dns.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/dns' does not exist, skipping all lookups in it.
+Loading module 'dns' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/dns.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/dns.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/dns.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/dns.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'dns'.
+'paths' option is specified, looking for a pattern to match module name 'dns'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'dns'.
+Resolving module name 'dns' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/dns'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/dns', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/dns.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/dns.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/dns' does not exist, skipping all lookups in it.
+Loading module 'dns' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/dns.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/dns.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'dns' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/dgram.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/domain.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/fs.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/fs.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'url' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/fs.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'url'.
+'paths' option is specified, looking for a pattern to match module name 'url'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'url'.
+Resolving module name 'url' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/url'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/url', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/url.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/url.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/url.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/url' does not exist, skipping all lookups in it.
+Loading module 'url' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/url.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/url.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/url.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/url.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'url'.
+'paths' option is specified, looking for a pattern to match module name 'url'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'url'.
+Resolving module name 'url' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/url'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/url', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/url.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/url.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/url' does not exist, skipping all lookups in it.
+Loading module 'url' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/url.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/url.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'url' was not resolved. ========
+======== Resolving module 'fs/promises' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/fs.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs/promises'.
+'paths' option is specified, looking for a pattern to match module name 'fs/promises'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs/promises'.
+Resolving module name 'fs/promises' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/fs/promises'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/fs/promises', target file type 'TypeScript'.
+Loading module 'fs/promises' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs/promises'.
+'paths' option is specified, looking for a pattern to match module name 'fs/promises'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs/promises'.
+Resolving module name 'fs/promises' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/fs/promises'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/fs/promises', target file type 'JavaScript'.
+Loading module 'fs/promises' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'fs/promises' was not resolved. ========
+======== Resolving module 'fs' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/fs/promises.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs'.
+'paths' option is specified, looking for a pattern to match module name 'fs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'fs'.
+Resolving module name 'fs' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/fs'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/fs', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/fs.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/fs.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/fs.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/fs' does not exist, skipping all lookups in it.
+Loading module 'fs' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/fs/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'fs' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'fs' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'url' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http.d.ts'. ========
+Resolution for module 'url' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'url' was not resolved. ========
+======== Resolving module 'net' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http.d.ts'. ========
+Resolution for module 'net' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'net' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http2.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'fs' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http2.d.ts'. ========
+Resolution for module 'fs' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'fs' was not resolved. ========
+======== Resolving module 'net' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http2.d.ts'. ========
+Resolution for module 'net' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'net' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http2.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'tls' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http2.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'tls'.
+'paths' option is specified, looking for a pattern to match module name 'tls'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'tls'.
+Resolving module name 'tls' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/tls'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/tls', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/tls.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/tls.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/tls.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/tls' does not exist, skipping all lookups in it.
+Loading module 'tls' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tls.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tls.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tls.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/tls.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'tls'.
+'paths' option is specified, looking for a pattern to match module name 'tls'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'tls'.
+Resolving module name 'tls' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/tls'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/tls', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/tls.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/tls.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/tls' does not exist, skipping all lookups in it.
+Loading module 'tls' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tls.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tls.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'tls' was not resolved. ========
+======== Resolving module 'url' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http2.d.ts'. ========
+Resolution for module 'url' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'url' was not resolved. ========
+======== Resolving module 'http' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/http2.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'http'.
+'paths' option is specified, looking for a pattern to match module name 'http'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'http'.
+Resolving module name 'http' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/http'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/http', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/http.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/http.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/http.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/http' does not exist, skipping all lookups in it.
+Loading module 'http' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/http.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/http.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/http.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/http.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'http'.
+'paths' option is specified, looking for a pattern to match module name 'http'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'http'.
+Resolving module name 'http' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/http'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/http', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/http.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/http.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/http' does not exist, skipping all lookups in it.
+Loading module 'http' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/http.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/http.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'http' was not resolved. ========
+======== Resolving module 'tls' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/https.d.ts'. ========
+Resolution for module 'tls' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'tls' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/https.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'http' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/https.d.ts'. ========
+Resolution for module 'http' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'http' was not resolved. ========
+======== Resolving module 'url' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/https.d.ts'. ========
+Resolution for module 'url' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'url' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/inspector.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'url' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/module.d.ts'. ========
+Resolution for module 'url' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'url' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/net.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/net.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'dns' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/net.d.ts'. ========
+Resolution for module 'dns' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'dns' was not resolved. ========
+======== Resolving module 'async_hooks' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/perf_hooks.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'async_hooks'.
+'paths' option is specified, looking for a pattern to match module name 'async_hooks'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'async_hooks'.
+Resolving module name 'async_hooks' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/async_hooks'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/async_hooks', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/async_hooks.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/async_hooks.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/async_hooks.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/async_hooks' does not exist, skipping all lookups in it.
+Loading module 'async_hooks' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/async_hooks.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/async_hooks.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/async_hooks.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/async_hooks.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'async_hooks'.
+'paths' option is specified, looking for a pattern to match module name 'async_hooks'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'async_hooks'.
+Resolving module name 'async_hooks' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/async_hooks'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/async_hooks', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/async_hooks.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/async_hooks.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/async_hooks' does not exist, skipping all lookups in it.
+Loading module 'async_hooks' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/async_hooks.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/async_hooks.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'async_hooks' was not resolved. ========
+======== Resolving module 'tty' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/process.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'tty'.
+'paths' option is specified, looking for a pattern to match module name 'tty'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'tty'.
+Resolving module name 'tty' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/tty'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/tty', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/tty.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/tty.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/tty.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/tty' does not exist, skipping all lookups in it.
+Loading module 'tty' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tty.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tty.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tty.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/tty.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'tty'.
+'paths' option is specified, looking for a pattern to match module name 'tty'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'tty'.
+Resolving module name 'tty' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/tty'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/tty', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/tty.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/tty.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/tty' does not exist, skipping all lookups in it.
+Loading module 'tty' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tty.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/tty.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'tty' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/readline.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/readline.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'readline' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/repl.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'readline'.
+'paths' option is specified, looking for a pattern to match module name 'readline'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'readline'.
+Resolving module name 'readline' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/readline'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/readline', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/readline.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/readline.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/readline.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/readline' does not exist, skipping all lookups in it.
+Loading module 'readline' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/readline.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/readline.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/readline.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/readline.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'readline'.
+'paths' option is specified, looking for a pattern to match module name 'readline'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'readline'.
+Resolving module name 'readline' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/readline'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/readline', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/readline.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/readline.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/readline' does not exist, skipping all lookups in it.
+Loading module 'readline' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/readline.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/readline.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'readline' was not resolved. ========
+======== Resolving module 'vm' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/repl.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vm'.
+'paths' option is specified, looking for a pattern to match module name 'vm'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vm'.
+Resolving module name 'vm' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vm'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vm', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/vm.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vm.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vm.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vm' does not exist, skipping all lookups in it.
+Loading module 'vm' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vm.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vm.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vm.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/vm.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vm'.
+'paths' option is specified, looking for a pattern to match module name 'vm'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vm'.
+Resolving module name 'vm' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vm'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vm', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/vm.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vm.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vm' does not exist, skipping all lookups in it.
+Loading module 'vm' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vm.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/vm.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'vm' was not resolved. ========
+======== Resolving module 'util' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/repl.d.ts'. ========
+Resolution for module 'util' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'util' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/stream.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'crypto' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/tls.d.ts'. ========
+Resolution for module 'crypto' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'crypto' was not resolved. ========
+======== Resolving module 'dns' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/tls.d.ts'. ========
+Resolution for module 'dns' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'dns' was not resolved. ========
+======== Resolving module 'net' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/tls.d.ts'. ========
+Resolution for module 'net' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'net' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/tls.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'net' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/tty.d.ts'. ========
+Resolution for module 'net' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'net' was not resolved. ========
+======== Resolving module 'querystring' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/url.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'querystring'.
+'paths' option is specified, looking for a pattern to match module name 'querystring'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'querystring'.
+Resolving module name 'querystring' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/querystring'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/querystring', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/querystring.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/querystring.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/querystring.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/querystring' does not exist, skipping all lookups in it.
+Loading module 'querystring' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/querystring.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/querystring.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/querystring.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/querystring.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'querystring'.
+'paths' option is specified, looking for a pattern to match module name 'querystring'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'querystring'.
+Resolving module name 'querystring' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/querystring'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/querystring', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/querystring.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/querystring.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/querystring' does not exist, skipping all lookups in it.
+Loading module 'querystring' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/querystring.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/querystring.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'querystring' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/v8.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'vm' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/worker_threads.d.ts'. ========
+Resolution for module 'vm' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'vm' was not resolved. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/worker_threads.d.ts'. ========
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/worker_threads.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'url' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/worker_threads.d.ts'. ========
+Resolution for module 'url' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'url' was not resolved. ========
+======== Resolving module 'stream' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/zlib.d.ts'. ========
+Resolution for module 'stream' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types/node'.
+======== Module name 'stream' was not resolved. ========
+======== Resolving module 'https' from '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/util.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'https'.
+'paths' option is specified, looking for a pattern to match module name 'https'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'https'.
+Resolving module name 'https' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/https'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/https', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/https.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/https.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/https.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/https' does not exist, skipping all lookups in it.
+Loading module 'https' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/https.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/https.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/https.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/https.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'https'.
+'paths' option is specified, looking for a pattern to match module name 'https'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'https'.
+Resolving module name 'https' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/https'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/https', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/https.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/https.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/https' does not exist, skipping all lookups in it.
+Loading module 'https' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/https.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/https.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'https' was not resolved. ========
+======== Resolving module './download' from '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/util.d.ts'. ========
+Resolution for module './download' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out'.
+======== Module name './download' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/vscode-test/out/download.d.ts' with Package ID 'vscode-test/out/download.d.ts@1.4.0'. ========
+======== Resolving module 'assert' from '/home/jlsgonzales/git/logger-joe/src/test/suite/extension.test.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'assert'.
+'paths' option is specified, looking for a pattern to match module name 'assert'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'assert'.
+Resolving module name 'assert' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/assert'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/assert', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/assert.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/assert.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/assert.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/assert' does not exist, skipping all lookups in it.
+Loading module 'assert' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/suite/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/assert.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/assert.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/assert.d.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/assert.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'assert'.
+'paths' option is specified, looking for a pattern to match module name 'assert'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'assert'.
+Resolving module name 'assert' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/assert'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/assert', target file type 'JavaScript'.
+File '/home/jlsgonzales/git/logger-joe/assert.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/assert.jsx' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/assert' does not exist, skipping all lookups in it.
+Loading module 'assert' from 'node_modules' folder, target file type 'JavaScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/suite/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/node_modules' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/assert.js' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/assert.jsx' does not exist.
+Directory '/home/jlsgonzales/git/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/node_modules' does not exist, skipping all lookups in it.
+Directory '/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'assert' was not resolved. ========
+======== Resolving module 'vscode' from '/home/jlsgonzales/git/logger-joe/src/test/suite/extension.test.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+'paths' option is specified, looking for a pattern to match module name 'vscode'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'vscode'.
+Resolving module name 'vscode' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/vscode'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/vscode', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/vscode.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/vscode.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/vscode' does not exist, skipping all lookups in it.
+Loading module 'vscode' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/suite/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'vscode' was found in cache from location '/home/jlsgonzales/git/logger-joe/src'.
+======== Module name 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0'. ========
+======== Resolving module 'path' from '/home/jlsgonzales/git/logger-joe/src/test/suite/index.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'path'.
+'paths' option is specified, looking for a pattern to match module name 'path'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'path'.
+Resolving module name 'path' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/path'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/path', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/path.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/path.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/path.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/path' does not exist, skipping all lookups in it.
+Loading module 'path' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/suite/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'path' was found in cache from location '/home/jlsgonzales/git/logger-joe/src/test'.
+======== Module name 'path' was not resolved. ========
+======== Resolving module 'mocha' from '/home/jlsgonzales/git/logger-joe/src/test/suite/index.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'mocha'.
+'paths' option is specified, looking for a pattern to match module name 'mocha'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'mocha'.
+Resolving module name 'mocha' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/mocha'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/mocha', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/mocha.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/mocha.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/mocha.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/mocha' does not exist, skipping all lookups in it.
+Loading module 'mocha' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/suite/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/mocha/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/mocha.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/mocha.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/mocha.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' does not have a 'main' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/mocha/index.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/mocha/index.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/mocha/index.d.ts' does not exist.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts'.
+======== Module name 'mocha' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts' with Package ID '@types/mocha/index.d.ts@8.0.3'. ========
+======== Resolving module 'glob' from '/home/jlsgonzales/git/logger-joe/src/test/suite/index.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'glob'.
+'paths' option is specified, looking for a pattern to match module name 'glob'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'glob'.
+Resolving module name 'glob' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/glob'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/glob', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/glob.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/glob.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/glob.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/glob' does not exist, skipping all lookups in it.
+Loading module 'glob' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/suite/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/test/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/src/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/glob/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'glob.js' that references '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js' exist - use it as a name resolution result.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js.d.ts' does not exist.
+File name '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js' has a '.js' extension - stripping it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/glob/glob.js' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/index.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/index.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/glob/index.d.ts' does not exist.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts'.
+======== Module name 'glob' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts' with Package ID '@types/glob/index.d.ts@7.1.3'. ========
+======== Resolving type reference directive 'node', containing file '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/package.json'.
+'package.json' has a 'typesVersions' field with version-specific path mappings.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/index.d.ts'.
+'package.json' has a 'typesVersions' entry '>=3.7.0-0' that matches compiler version '4.0.2', looking for a pattern to match module name 'index.d.ts'.
+Module name 'index.d.ts', matched pattern '*'.
+Trying substitution 'ts3.7/*', candidate module location: 'ts3.7/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts' with Package ID '@types/node/ts3.7/index.d.ts@14.6.0', primary: true. ========
+======== Resolving module 'events' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'events'.
+'paths' option is specified, looking for a pattern to match module name 'events'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'events'.
+Resolving module name 'events' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/events'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/events', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/events.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/events.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/events.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/events' does not exist, skipping all lookups in it.
+Loading module 'events' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/node_modules' does not exist, skipping all lookups in it.
+Resolution for module 'events' was found in cache from location '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+======== Module name 'events' was not resolved. ========
+======== Resolving module 'minimatch' from '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts'. ========
+Module resolution kind is not specified, using 'NodeJs'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'minimatch'.
+'paths' option is specified, looking for a pattern to match module name 'minimatch'.
+'baseUrl' option is set to '/home/jlsgonzales/git/logger-joe', using this value to resolve non-relative module name 'minimatch'.
+Resolving module name 'minimatch' relative to base url '/home/jlsgonzales/git/logger-joe' - '/home/jlsgonzales/git/logger-joe/minimatch'.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/minimatch', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/minimatch.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/minimatch.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/minimatch.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/minimatch' does not exist, skipping all lookups in it.
+Loading module 'minimatch' from 'node_modules' folder, target file type 'TypeScript'.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/node_modules' does not exist, skipping all lookups in it.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/@types/node_modules' does not exist, skipping all lookups in it.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+'package.json' has 'main' field 'minimatch.js' that references '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js' exist - use it as a name resolution result.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js' has an unsupported extension, so skipping it.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js.d.ts' does not exist.
+File name '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js' has a '.js' extension - stripping it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.d.ts' does not exist.
+Directory '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/minimatch.js' does not exist, skipping all lookups in it.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/index.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/index.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/minimatch/index.d.ts' does not exist.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/package.json'.
+'package.json' does not have a 'typesVersions' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch.d.ts' does not exist.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/index.d.ts'.
+======== Module name 'minimatch' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/index.d.ts' with Package ID '@types/minimatch/index.d.ts@3.0.3'. ========
+======== Resolving type reference directive 'color-name', containing file '/home/jlsgonzales/git/logger-joe/__inferred type names__.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index' does not exist.
+Loading module as file / folder, candidate module location '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index', target file type 'TypeScript'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index.ts' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index.tsx' does not exist.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index.d.ts'.
+======== Type reference directive 'color-name' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/color-name/index.d.ts' with Package ID '@types/color-name/index.d.ts@1.1.1', primary: true. ========
+======== Resolving type reference directive 'eslint-visitor-keys', containing file '/home/jlsgonzales/git/logger-joe/__inferred type names__.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/eslint-visitor-keys/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/eslint-visitor-keys/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/eslint-visitor-keys/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/eslint-visitor-keys/index.d.ts'.
+======== Type reference directive 'eslint-visitor-keys' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/eslint-visitor-keys/index.d.ts' with Package ID '@types/eslint-visitor-keys/index.d.ts@1.0.0', primary: true. ========
+======== Resolving type reference directive 'glob', containing file '/home/jlsgonzales/git/logger-joe/__inferred type names__.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts'.
+======== Type reference directive 'glob' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/glob/index.d.ts' with Package ID '@types/glob/index.d.ts@7.1.3', primary: true. ========
+======== Resolving type reference directive 'json-schema', containing file '/home/jlsgonzales/git/logger-joe/__inferred type names__.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/json-schema/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/json-schema/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/json-schema/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/json-schema/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/json-schema/index.d.ts'.
+======== Type reference directive 'json-schema' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/json-schema/index.d.ts' with Package ID '@types/json-schema/index.d.ts@7.0.5', primary: true. ========
+======== Resolving type reference directive 'minimatch', containing file '/home/jlsgonzales/git/logger-joe/__inferred type names__.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' does not have a 'types' field.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/index.d.ts'.
+======== Type reference directive 'minimatch' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/minimatch/index.d.ts' with Package ID '@types/minimatch/index.d.ts@3.0.3', primary: true. ========
+======== Resolving type reference directive 'mocha', containing file '/home/jlsgonzales/git/logger-joe/__inferred type names__.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts'.
+======== Type reference directive 'mocha' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/mocha/index.d.ts' with Package ID '@types/mocha/index.d.ts@8.0.3', primary: true. ========
+======== Resolving type reference directive 'node', containing file '/home/jlsgonzales/git/logger-joe/__inferred type names__.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/package.json'.
+'package.json' has a 'typesVersions' field with version-specific path mappings.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/index.d.ts'.
+'package.json' has a 'typesVersions' entry '>=3.7.0-0' that matches compiler version '4.0.2', looking for a pattern to match module name 'index.d.ts'.
+Module name 'index.d.ts', matched pattern '*'.
+Trying substitution 'ts3.7/*', candidate module location: 'ts3.7/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts'.
+======== Type reference directive 'node' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/node/ts3.7/index.d.ts' with Package ID '@types/node/ts3.7/index.d.ts@14.6.0', primary: true. ========
+======== Resolving type reference directive 'vscode', containing file '/home/jlsgonzales/git/logger-joe/__inferred type names__.ts', root directory '/home/jlsgonzales/git/logger-joe/node_modules/@types'. ========
+Resolving with primary search path '/home/jlsgonzales/git/logger-joe/node_modules/@types'.
+Found 'package.json' at '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/package.json'.
+'package.json' does not have a 'typesVersions' field.
+'package.json' does not have a 'typings' field.
+'package.json' has 'types' field 'index.d.ts' that references '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts'.
+File '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' exist - use it as a name resolution result.
+Resolving real path for '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts', result '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts'.
+======== Type reference directive 'vscode' was successfully resolved to '/home/jlsgonzales/git/logger-joe/node_modules/@types/vscode/index.d.ts' with Package ID '@types/vscode/index.d.ts@1.48.0', primary: true. ========
+src/managers/DecoratorManager.ts(2,36): error TS2306: File '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts' is not a module.
+src/managers/DecoratorManager.ts(3,35): error TS2306: File '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts' is not a module.
+src/managers/DecoratorManager.ts(4,39): error TS2306: File '/home/jlsgonzales/git/logger-joe/src/decorators/index.ts' is not a module.

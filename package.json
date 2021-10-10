@@ -10,36 +10,32 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:logger-joe.helloWorld",
-        "onCommand:logger-joe.highlightWord",
-        "onCommand:logger-joe.rememberLine",
+        "onCommand:logger-joe.parseUnparse",
+        "onCommand:logger-joe.highlightUnhighlight",
+        "onCommand:logger-joe.rememberForget",
         "onCommand:logger-joe.grep"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "colors": [
-			{
-				"id": "loggerJoe.largeNumberBackground",
-				"description": "Background decoration color for large numbers",
-				"defaults": {
-					"dark": "#FF000055",
-					"light": "#FF000055",
-					"highContrast": "#FF000055"
-				}
-			}
+            {
+                "id": "loggerJoe.largeNumberBackground",
+                "description": "Background decoration color for large numbers",
+                "defaults": {
+                    "dark": "#FF000055",
+                    "light": "#FF000055",
+                    "highContrast": "#FF000055"
+                }
+            }
         ],
         "commands": [
             {
-                "command": "logger-joe.helloWorld",
-                "title": "Logger Joe: Parse File"
+                "command": "logger-joe.parseUnparse",
+                "title": "Logger Joe: Parse/Unparse File"
             },
             {
-                "command": "logger-joe.rememberLine",
-                "title": "Logger Joe: Remember This Line"
-            },
-            {
-                "command": "logger-joe.forgetLine",
-                "title": "Logger Joe: Forget This Line"
+                "command": "logger-joe.rememberForget",
+                "title": "Logger Joe: Remember/Forget"
             },
             {
                 "command": "logger-joe.grep",
@@ -54,12 +50,8 @@
                 "title": "Logger Joe: Go to Previous Remembered Line"
             },
             {
-                "command": "logger-joe.highlightWord",
-                "title": "Logger Joe: Highlight Selected"
-            },
-            {
-                "command": "logger-joe.unhighlightWord",
-                "title": "Logger Joe: Unhighlight Selected"
+                "command": "logger-joe.highlightUnhighlight",
+                "title": "Logger Joe: Highlight/Unhighlight"
             }
         ]
     },

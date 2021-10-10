@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
-import { ExtensionManager } from "../managers/ExtensionManager";
-import { RememberLineDecorator } from '../decorators/RememberLineDecorator';
+import { RememberLineDecorator } from '../decorators';
+import { ExtensionManager, DecoratorManager } from '../managers';
 import { ICommand } from './ICommand';
 
 enum EPatternType
@@ -27,7 +27,7 @@ export class GrepCommand implements ICommand
     private operationMap: Map<string, Operation>;
     private rememberDecorator: RememberLineDecorator;
 
-    constructor(extensionManager: ExtensionManager, remember: RememberLineDecorator)
+    constructor(extensionManager: ExtensionManager, decoratorManager: DecoratorManager)
     {
         this.extensionManager = extensionManager;
         this.operationMap = new Map([
@@ -48,7 +48,7 @@ export class GrepCommand implements ICommand
                 { cb: this.grepRegexToCurrent.bind(this), pattern: EPatternType.regex }
             ],
         ]);
-        this.rememberDecorator = remember;
+        this.rememberDecorator = decoratorManager.rememberLine;
     }
 
     public disposables()
@@ -92,10 +92,9 @@ export class GrepCommand implements ICommand
                 {
                     choice.cb(editor, pattern!);
                 }
-                catch(err)
+                catch (err)
                 {
-                    console.error(err);
-                    vscode.window.showErrorMessage(err);
+                    vscode.window.showErrorMessage((err as Error)?.message || '');
                 }
             });
         });

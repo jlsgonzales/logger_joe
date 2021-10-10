@@ -1,4 +1,4 @@
-import { ExtensionManager } from "../managers/ExtensionManager";
+import { ExtensionManager } from "../managers";
 import * as vscode from 'vscode';
 
 export class RememberLineDecorator
@@ -6,16 +6,17 @@ export class RememberLineDecorator
     private extensionManager: ExtensionManager;
     private rememberedLines: Map<string, number[]>; // filename, rememberedlines
     private tempRememberedLines: Map<string, number[]>; // filename, rememberedlines
-    private disposableTemps: vscode.Disposable[];
+    private disposables: vscode.Disposable[];
 
     constructor(extensionManager: ExtensionManager)
     {
         this.extensionManager = extensionManager;
         this.extensionManager.addUpdateHook((activeEditor: vscode.TextEditor) => this.updateDecoration(activeEditor));
         this.extensionManager.addUndoHook((activeEditor: vscode.TextEditor) => this.undo(activeEditor));
+        this.extensionManager.addDisposeHook((fn: string) => this.disposeFile(fn));
         this.rememberedLines = new Map([]);
         this.tempRememberedLines = new Map([]);
-        this.disposableTemps = [];
+        this.disposables = [];
     }
 
     public undo(editor: vscode.TextEditor)
@@ -36,7 +37,7 @@ export class RememberLineDecorator
         {
             return;
         }
-        this.disposeDecors();
+        this.disposeDecoration();
         this.rememberedLines.get(fileName)!.forEach( (line: number, index: number) =>
         {
             const decor = vscode.window.createTextEditorDecorationType(
@@ -48,16 +49,25 @@ export class RememberLineDecorator
                 light: { borderColor: 'darkblue' },
                 dark: { borderColor: 'lightblue' }
             });
-            this.disposableTemps.push(decor);
+            this.disposables.push(decor);
             active.setDecorations(decor, [{ range: active.document.lineAt(line).range }]);
             console.log("rememberline ", line);
         });
     }
 
-    private disposeDecors()
+    private disposeDecoration()
     {
-        this.disposableTemps.forEach((disposable) => disposable.dispose());
-        this.disposableTemps = [];
+        console.log('disposing', this.constructor.name);
+        this.disposables.forEach((disposable) => disposable.dispose());
+        this.disposables = [];
+    }
+
+    public disposeFile(fn: string)
+    {
+        console.log('disposing', this.constructor.name);
+        this.disposeDecoration();
+        this.rememberedLines.delete(fn);
+        this.tempRememberedLines.delete(fn);
     }
 
     public addLine(fn: string, ln: number)
@@ -102,10 +112,13 @@ export class RememberLineDecorator
 
     public getPreviousLine(editor: vscode.TextEditor)
     {
-        const currentLine = editor.visibleRanges[0].start.line;
+        const currentLine = editor.visibleRanges[0].start.line; // 6123
+        console.log("currentLine", currentLine);
         const rememberedLines = this.rememberedLines.get(editor.document.fileName)!;
-        return (rememberedLines.find(ln => ln < currentLine) !== undefined) ?
-            rememberedLines.find(ln => ln < currentLine)! :
+        const result = [...rememberedLines].reverse().find(ln => ln < currentLine);
+        console.log("result", result);
+        return (result !== undefined) ?
+            result! :
             rememberedLines[rememberedLines.length - 1]; // loops to the last remembered word
     }
 

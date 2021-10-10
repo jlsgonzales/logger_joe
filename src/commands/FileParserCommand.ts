@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { ExtensionManager } from "../managers/ExtensionManager";
+import { ExtensionManager } from "../managers";
 import { ICommand } from './ICommand';
 
 export class FileParserCommand implements ICommand
@@ -13,17 +13,25 @@ export class FileParserCommand implements ICommand
 
     public disposables()
     {
-        return [vscode.commands.registerCommand('logger-joe.helloWorld', () => this.execute())];
+        return [vscode.commands.registerCommand('logger-joe.parseUnparse', () => this.execute())];
     }
 
     private execute()
     {
         let activeEditor = vscode.window.activeTextEditor;
-        if (!activeEditor || this.extensionManager.includes(activeEditor.document.fileName))
+        if (!activeEditor)
         {
             return;
         }
-        this.extensionManager.addFile(activeEditor.document.fileName);
+        const { fileName } = activeEditor.document;
+        if (this.extensionManager.includes(fileName))
+        {
+            this.extensionManager.removeFile(fileName);
+        }
+        else
+        {
+            this.extensionManager.addFile(fileName);
+        }
         this.extensionManager.update(activeEditor);
     }
 }

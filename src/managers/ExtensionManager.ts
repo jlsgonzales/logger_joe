@@ -1,18 +1,21 @@
 import * as vscode from 'vscode';
 
 type TUpdateHook = (active: vscode.TextEditor) => void;
+type TDisposeHook = (fn: string) => void;
 
 export class ExtensionManager
 {
     private files: string[];
     private updateHooks: TUpdateHook[];
     private undoHooks: TUpdateHook[];
+    private disposeHooks: TDisposeHook[];
 
     constructor()
     {
         this.files = [];
         this.updateHooks = [];
         this.undoHooks = [];
+        this.disposeHooks = [];
     }
 
     public addFile(fileName: string): void
@@ -39,6 +42,11 @@ export class ExtensionManager
         this.undoHooks.push(newUndoHook);
     }
 
+    public addDisposeHook(newDisposeHook: TDisposeHook)
+    {
+        this.disposeHooks.push(newDisposeHook);
+    }
+
     public update(activeEditor?: vscode.TextEditor)
     {
         setTimeout(() =>
@@ -46,10 +54,6 @@ export class ExtensionManager
             if (activeEditor && this.includes(activeEditor.document.fileName))
             {
                 this.updateHooks.forEach((updateHook: TUpdateHook) => updateHook(activeEditor!));
-            }
-            else if(activeEditor)
-            {
-                console.log(`Failed extension.update. ${activeEditor!.document.fileName}`);
             }
         }, 500);
     }
@@ -111,5 +115,15 @@ export class ExtensionManager
             }
             return vscode.commands.executeCommand('default:undo', args);
         });
+    }
+
+    public removeFile(fn: string)
+    {
+        if (this.files.includes(fn))
+        {
+            this.files = this.files.filter((fileName) => fileName !== fn);
+        }
+        this.disposeHooks.forEach((disposeHook: TDisposeHook) => disposeHook(fn));
+        console.log('removed file: ', fn, ' from parsed files: ', this.files);
     }
 }

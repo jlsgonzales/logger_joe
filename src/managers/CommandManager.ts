@@ -1,22 +1,16 @@
+import { Disposable, ExtensionContext } from "vscode";
 import { ICommand } from "../commands/ICommand";
-import * as vscode from 'vscode';
 
 export class CommandManager
 {
-    private commands: ICommand[];
-    constructor(commands: ICommand[])
-    {
-        this.commands = commands;
-    }
+  private commands: ICommand[] = [];
 
-    public registerCommands(context: vscode.ExtensionContext)
+  public registerNewCommand(context: ExtensionContext, command: ICommand)
+  {
+    this.commands.push(command);
+    command.disposables().forEach((disposable: Disposable) =>
     {
-        this.commands.forEach((command) =>
-        {
-            command.disposables().forEach((disposable: vscode.Disposable) =>
-            {
-                context.subscriptions.push(disposable);
-            });
-        });
-    }
+        context.subscriptions.push(disposable);
+    });
+  }
 }

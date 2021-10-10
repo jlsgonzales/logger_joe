@@ -1,65 +1,49 @@
-# logger-joe README
+# Logger Joe
 
-This is the README for your extension "logger-joe". After writing up a brief description, we recommend including the following sections.
+Welcome to Logger Joe! A VS Code extension that aims to help you analyze long log files!
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+#### Log level
 
-For example if there is an image subfolder under your extension project workspace:
+This feature is activated once the `Logger Joe: Parse/Unparse File` is triggered.
+In this version, log level keywords are harcoded (case sensitive) as:
 
-\!\[feature X\]\(images/feature-x.png\)
+* INFO
+* WARN
+* ERROR
+* FATAL
+* DEBUG
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+#### Bookmarking
 
-## Requirements
+When investigating long log files, it is useful to bookmark certain lines to use as reference.
+Logger Joe supports this feature under `Logger Joe: Remember/Forget` command
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Navigate your bookmarked lines with `Logger Joe: Go to Next Remembered Line` and  `Logger Joe: Go to Previous Remembered Line`
 
-## Extension Settings
+#### Highlighting
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Highlighting key phrases can be beneficial to make them standout in your investigation.
+Logger Joe supports this feature under `Logger Joe: Highlight/Unhighlight` command.
 
-For example:
+In this version, Logger Joe can only highlight 50 words per file simultaneously.
 
-This extension contributes the following settings:
+#### Grep
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+Grep key phrases to help you investigate your log file with Logger Joe's `Logger Joe: Grep` command.
 
-## Known Issues
+In this version, grep is supported in 4 modes depending on your needs:
+* `Logger Joe: Grep To New Editor (Text)`
+* `Logger Joe: Grep To Current Editor (Text)`
+* `Logger Joe: Grep To New Editor (Regex)`
+* `Logger Joe: Grep To Current Editor (Regex)`
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Future Features
 
-## Release Notes
+Watch out for these exciting new features:
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+* Sidebar Integration
+* Log streaming from external API
+* Configurability (log level keywords)
+* Persisted Markings
